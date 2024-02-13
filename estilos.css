@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+   background: cadetblue;
+
+}
+
+.contenedor{
+  background: cadetblue;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+p{
+  font-size: xx-large;
+  padding: 5%;
+  margin-top: 200px;
+}
+
+button{
+  font-size: xx-large;
+  padding: 0.75em;
+  background-color: white;
+}
+
+#yesBtn{
+  transform: translate(-100%,0);
+}
+
+#noBtn{
+  position: absolute;
+}
+
+
+#heart { 
+  position: relative; 
+  width: 100px; 
+  margin-left: 660px;
+  margin-top: 150px;
+  height: 90px; 
+} 
+
+#heart:before, #heart:after { 
+  position: absolute; 
+  content: ""; 
+  left: 50px; 
+  top: 0; 
+  width: 50px; 
+  height: 80px; 
+  background: red; 
+  border-radius: 50px 50px 0 0; 
+  transform: rotate(-45deg); 
+  transform-origin: 0 100%; 
+} 
+
+#heart:after { 
+  left: 0; 
+  transform: rotate(45deg); 
+  transform-origin :100% 100%; 
+}
